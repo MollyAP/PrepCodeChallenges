@@ -45,38 +45,82 @@ class Program
         {
             Console.WriteLine("That ain't a year.");
         }
-    }
 
-    static int CalculateScore(int[] numbers, int selectedNumber)
-    {
-        int score = 0;
-        foreach (int num in numbers)
-        {
-            if (num == selectedNumber)
-                score += num;
+            // Problem 3: Perfect Sequence
+            int[] sequence = GetUserInputArray("Enter a sequence of non-negative integers (comma-separated):");
+            string result = IsPerfectSequence(sequence) ? "Yes" : "No";
+            Console.WriteLine("Perfect Sequence: " + result);
         }
-        return score;
-    }
 
-    static bool IsLeapYear(int year)
-    {
-        if (year % 4 == 0)
+        static int CalculateScore(int[] numbers, int selectedNumber)
         {
-            if (year % 100 == 0)
+            int score = 0;
+            foreach (int num in numbers)
             {
-                if (year % 400 == 0)
-                    return true;
+                if (num == selectedNumber)
+                    score += num;
+            }
+            return score;
+        }
+
+        static bool IsLeapYear(int year)
+        {
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                        return true;
+                    else
+                        return false;
+                }
                 else
-                    return false;
+                {
+                    return true;
+                }
             }
             else
             {
-                return true;
+                return false;
             }
         }
-        else
+
+        static bool IsPerfectSequence(int[] sequence)
         {
-            return false;
+            int sum = 0;
+            int product = 1;
+            foreach (int num in sequence)
+            {
+                if (num < 0)
+                    return false;
+
+                sum += num;
+                product *= num;
+            }
+
+            return sum == product;
+        }
+
+        static int[] GetUserInputArray(string message)
+        {
+            Console.WriteLine(message);
+            string input = Console.ReadLine();
+            string[] values = input.Split(',');
+
+            int[] array = new int[values.Length];
+            for (int i = 0; i < values.Length; i++)
+            {
+                if (int.TryParse(values[i], out int number) && number >= 0)
+                {
+                    array[i] = number;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter non-negative integers (comma-separated).");
+                    return GetUserInputArray(message);
+                }
+            }
+
+            return array;
         }
     }
-}
