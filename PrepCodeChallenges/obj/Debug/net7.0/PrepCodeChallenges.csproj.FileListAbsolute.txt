@@ -1,0 +1,15 @@
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\bin\Debug\net7.0\PrepCodeChallenges.exe
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\bin\Debug\net7.0\PrepCodeChallenges.deps.json
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\bin\Debug\net7.0\PrepCodeChallenges.runtimeconfig.json
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\bin\Debug\net7.0\PrepCodeChallenges.dll
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\bin\Debug\net7.0\PrepCodeChallenges.pdb
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.csproj.AssemblyReference.cache
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.AssemblyInfoInputs.cache
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.AssemblyInfo.cs
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.dll
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\refint\PrepCodeChallenges.dll
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.pdb
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\PrepCodeChallenges.genruntimeconfig.cache
+C:\Users\staym\Documents\GitHub\PrepCodeChallenges\PrepCodeChallenges\PrepCodeChallenges\obj\Debug\net7.0\ref\PrepCodeChallenges.dll
