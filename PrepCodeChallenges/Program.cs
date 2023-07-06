@@ -32,6 +32,19 @@ class Program
         {
             Console.WriteLine("That input is wrong. :( Try entering a valid number!");
         }
+
+        // Problem 2: Leap Year Calculator
+        Console.WriteLine("Enter a year and I'll tell you if it's a leap year:");
+        int year;
+        if (int.TryParse(Console.ReadLine(), out year))
+        {
+            bool isLeapYear = IsLeapYear(year);
+            Console.WriteLine("Leap Year: " + isLeapYear);
+        }
+        else
+        {
+            Console.WriteLine("That ain't a year.");
+        }
     }
 
     static int CalculateScore(int[] numbers, int selectedNumber)
@@ -43,5 +56,27 @@ class Program
                 score += num;
         }
         return score;
+    }
+
+    static bool IsLeapYear(int year)
+    {
+        if (year % 4 == 0)
+        {
+            if (year % 100 == 0)
+            {
+                if (year % 400 == 0)
+                    return true;
+                else
+                    return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        else
+        {
+            return false;
+        }
     }
 }
